@@ -12,8 +12,10 @@ Con Grid: Creamos como un contenedor con tres columnas: izquierda, centro, derec
 Ponemos el h1 en la columna del centro y el menú en la derecha, para que el título quede perfectamente centrado.
 
 ### 1C. Ejercicio – Convertir la cabecera en dos filas
-Lo que he hecho es Mi CSS:
+#### Lo que he hecho es Mi CSS:
 <img width="484" height="366" alt="image" src="https://github.com/user-attachments/assets/670e5ad0-a94b-42a2-b7ef-d682c36be20d" />
+
+###1D. Ejercicio – Dar relieve y separación visual al header
 
 ## Ejercicio2
 ### 2A. Ejercicio
