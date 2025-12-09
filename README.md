@@ -17,7 +17,7 @@ Mi CSS:
 <img width="484" height="366" alt="image" src="https://github.com/user-attachments/assets/670e5ad0-a94b-42a2-b7ef-d682c36be20d" />
 
 
-##Ejercicio2
+## Ejercicio2
 ### 2A. Ejercicio
 <img width="643" height="318" alt="image" src="https://github.com/user-attachments/assets/113777ca-57f1-41fd-8033-0ffb6eb281f9" />
 
