@@ -15,7 +15,10 @@ Ponemos el h1 en la columna del centro y el menú en la derecha, para que el tí
 #### Lo que he hecho es Mi CSS:
 <img width="484" height="366" alt="image" src="https://github.com/user-attachments/assets/670e5ad0-a94b-42a2-b7ef-d682c36be20d" />
 
-###1D. Ejercicio – Dar relieve y separación visual al header
+### 1D. Ejercicio – Dar relieve y separación visual al header
+Le he añadido un colo de fondo con background-color, tambien le he puesto sombra xon box-shadow y le he añadido un espcacio frente al body con margin-bottom.
+<img width="298" height="161" alt="image" src="https://github.com/user-attachments/assets/ebe80779-ec16-4ef6-960a-f4828cf37d33" />
+
 
 ## Ejercicio2
 ### 2A. Ejercicio
