@@ -26,6 +26,14 @@ Ponemos el h1 en la columna del centro y el menú en la derecha, para que el tí
 <img width="643" height="318" alt="image" src="https://github.com/user-attachments/assets/113777ca-57f1-41fd-8033-0ffb6eb281f9" />
 
 ### 2B. Ejercicio
+#### CSS del h1 y del menu:
+<img width="431" height="603" alt="image" src="https://github.com/user-attachments/assets/1666a7fc-f3d0-4d34-8131-ce6be7611985" />
+
+#### Explicacion:
+Despues de probar muchas cosas y dare vueltas he puesto en la clase del header display: grid;. Luego en cada elemento del header le he añadido grid-column-start: "orden de vista";, en el caso de del h1 he puesto grid-column-start: 2; 
+#### CSS del boton de hamburguesa:
+<img width="654" height="350" alt="image" src="https://github.com/user-attachments/assets/65cfd074-7640-44e1-bb3b-7acf083057f8" />
+
 
 ### 3A. Crear miniaturas
 Le he cambiado el tamaño y lo he puesto como en el ejemplo con 200px.
