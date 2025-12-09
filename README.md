@@ -13,7 +13,8 @@ Ponemos el h1 en la columna del centro y el menú en la derecha, para que el tí
 
 ### 1C. Ejercicio – Convertir la cabecera en dos filas
 #### Lo que he hecho es Mi CSS:
-<img width="484" height="366" alt="image" src="https://github.com/user-attachments/assets/670e5ad0-a94b-42a2-b7ef-d682c36be20d" />
+<img width="272" height="417" alt="image" src="https://github.com/user-attachments/assets/e1518fe1-d832-4528-a8ef-a4ed7ba104a3" />
+
 
 ### 1D. Ejercicio – Dar relieve y separación visual al header
 #### Le he añadido un colo de fondo con background-color, tambien le he puesto sombra xon box-shadow y le he añadido un espcacio frente al body con margin-bottom.
