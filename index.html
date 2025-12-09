@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--He añadido un icono a la pagina-->
+  <link rel="icon" type="image/png" href="img/icono.png">
+  <!--Fuente embebida (he usado rubik)-->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet" rel="stylesheet">
+  <!-- TODO: Cambia el título por algo relacionado con tu temática -->
+  <title>Wikilant</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+  <!-- CABECERA GLOBAL DEL SITIO -->
+  <header class="site-header">
+    <!-- TODO: Cambia el título por algo relacionado con tu temática -->
+    <h1 id="Titulo">Wikilant</h1>
+
+    <!-- TODO: Menú superior con enlaces a secciones de la misma página -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#tabla">Tabla</a></li>
+        <li><a href="#formulario">Formulario</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <button class="open-menu" aria-label="Abrir menú lateral">☰</button>
+  </header>
+
+  <!-- BOTÓN HAMBURGUESA FIJO PARA EL MENÚ LATERAL -->
+  
+
+  <!-- >CONTENIDO DEL MENÚ LATERAL DESLIZANTE -->
+  <nav id="sideMenu" class="side-menu">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#tabla">Tabla</a></li>
+      <li><a href="#formulario">Formulario</a></li>
+      <li><a href="#contacto">Contactos</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+
+    <!-- SECCIÓN HERO -->
+    <section>
+      <!-- TODO: Crear una sección destacada (texto + imagen) -->
+      <div>
+        <div></div>
+        <h2 class="subapartados" id="inicio">Mi pagina</h2>
+        Bienvenido a <strong>Wikilant</strong>, tu punto de encuentro para todo lo relacionado con
+        <strong>VALORANT</strong>.
+        Encuentra guías, comparativas, galerías de imágenes, noticias, y recursos útiles para mejorar tu partida y estar
+        al día con el universo del juego.
+        </p>
+
+        <p>
+          Explora información sobre agentes y roles, consulta tablas de armas y mapas, participa con tus votos y
+          reportes,
+          y descarga el juego desde el enlace oficial. Contenido organizado y visual para jugadores nuevos y veteranos.
+        </p>
+      </div>
+      <div class="hero-image">
+        <img id="img1" class="imagenes" src="img/imagen_fondo.png">
+      </div>
+      </div>
+      <!-- TODO: Añadir imagen relacionada -->
+    </section>
+
+    <!-- SECCIÓN GALERÍA -->
+    <section>
+      <h2 class="subapartados" id="galeria">Galería de imágenes</h2>
+      <!-- TODO: Usar CSS (preferiblemente Flex/Grid) para organizar las imágenes -->
+      <!-- Mínimo 6 imágenes -->
+      <div class="gallery-grid">
+        <a href="img/yoru_galeria1.jpg" target="_blank"><img src="img/yoru_galeria1.jpg" alt="Imagen 1" class="gallery-img"></a>
+        <a href="img/jett_galeria2.jpg" target="_blank"><img src="img/jett_galeria2.jpg" alt="Imagen 2" class="gallery-img"></a>
+        <a href="img/jett_galeria2.jpg" target="_blank"><img src="img/reyna_galeria3.jpg" alt="Imagen 3" class="gallery-img"></a>
+        <a href="img/jett_galeria2.jpg" target="_blank"><img src="img/omen_galeria4.jpg" alt="Imagen 4" class="gallery-img"></a>
+        <a href="img/jett_galeria2.jpg" target="_blank"><img src="img/killjoy_galeria5.jpg" alt="Imagen 5" class="gallery-img"></a>
+        <a href="img/jett_galeria2.jpg" target="_blank"><img src="img/viper_galeria6.jpg" alt="Imagen 6" class="gallery-img"></a>
+      </div>
+    </section>
+
+    <!-- SECCIÓN TABLA -->
+    <section>
+      <h2 class="subapartados" id="tabla">Roles de agentes</h2>
+      <!-- TODO: Crear una tabla coherente con tu temática -->
+      <!-- Ejemplo: clasificación, precios, comparativa, etc. -->
+      <table class="tabla-valorant">
+        <thead>
+          <tr>
+            <th>Rol</th>
+            <th>Descripción</th>
+            <th>Nº de agentes</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Duelista</td>
+            <td>Ataque agresivo y entrada al combate.</td>
+            <td>6</td>
+          </tr>
+
+          <tr>
+            <td>Controlador</td>
+            <td>Crean humo y controlan zonas del mapa.</td>
+            <td>5</td>
+          </tr>
+
+          <tr>
+            <td>Iniciador</td>
+            <td>Abren el camino con habilidades de desorientación o revelación.</td>
+            <td>5</td>
+          </tr>
+
+          <tr>
+            <td>Centinela</td>
+            <td>Defienden zonas y brindan soporte al equipo.</td>
+            <td>4</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SECCIÓN FORMULARIO -->
+    <section>
+      <h2 class="subapartados" id="formulario">Soporte</h2>
+      <!-- TODO: Crear un formulario con al menos 3 campos y un botón de envío -->
+      <form id="soporte">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" class="input-reporte" name="nombre" placeholder="Escribe tu nombre...">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" class="input-reporte" placeholder="tuemail@ejemplo.com">
+
+        <label for="tipo-bug">Tipo de problema:</label>
+        <select id="tipo-bug" name="tipo-bug">
+          <option value="tipo-problema">Selecciona el tipo de problema</option>
+          <option value="conectividad">Problemas de conectividad</option>
+          <option value="bugs-juego">Bug en el juego</option>
+          <option value="error-arma">Error con armas/agentes</option>
+          <option value="otros">Otros</option>
+        </select>
+
+        <label for="descripcion">Descripción del problema:</label>
+        <textarea id="descripcion" name="descripcion" rows="5" cols="40"
+          placeholder="Describe el problema..."></textarea>
+
+        <P>
+          <button type="submit" id="boton-reporte">Enviar reporte</button>
+        </P>
+      </form>
+    </section>
+
+    <!-- OTRAS SECCIONES QUE QUIERAS -->
+    <!-- Por ejemplo: Sobre mí, Servicios, Noticias, etc. -->
+
+    <!-- SECCIÓN CONTACTO / CIERRE -->
+    <section>
+      <h2 class="subapartados" id="contacto">Contactos</h2>
+      <!-- TODO: Texto, datos de contacto ficticios, redes, etc. -->
+      <ul class="redes-sociales">
+        <li><a href="https://discord.com/invite/valorantes" target="_blank"><img src="img/discord_logo.png"
+              class="icono-red" alt="discord"></a></li>
+        <li><a href="https://x.com/VALORANTes?lang=es" target="_blank"><img src="img/x_logo.png" class="icono-red"
+              alt="x"></a></li>
+        <li><a href="https://www.instagram.com/valorant/" target="_blank"><img src="img/instagram_logo.png"
+              class="icono-red" alt="instagram"></a></li>
+        <li><a href="https://www.youtube.com/@valorant" target="_blank"><img src="img/youtube_logo.png"
+              class="icono-red" alt="youTube"></a></li>
+      </ul>
+      <div>
+        <a href="https://playvalorant.com/es-es/download/" target="_blank" class="boton-descarga">Descarga Valorant</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="site-footer">
+    <p><a href="#hero">&copy; Alejandro Vega García</a></p>
+  </footer>
+
+  <!-- JavaScript mínimo para abrir/cerrar el menú lateral -->
+  <script>
+    const sideMenu = document.getElementById("sideMenu");
+    const toggleBtn = document.querySelector(".open-menu");
+
+    toggleBtn.addEventListener("click", () => {
+      sideMenu.classList.toggle("active");
+      toggleBtn.classList.toggle("active");
+
+      toggleBtn.textContent =
+        sideMenu.classList.contains("active") ? "✖" : "☰";
+    });
+  </script>
+</body>
+
+</html>

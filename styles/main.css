@@ -1,0 +1,330 @@
+/* ===== RESET CSS básico ===== */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== ESTILOS BASE ===== */
+html {
+  scroll-behavior: smooth;
+  /*esto lo he puesto para que el scroll sea mas suave*/
+}
+
+/* ===== Topografias ===== */
+/* Fuente descargada*/
+@font-face {}
+
+/* Fuente embebida*/
+body {
+  font-family: "Rubik", sans-serif;
+  /*Topografia rubik*/
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+/* ===== Imagenes ===== */
+.imagenes {
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* ===== Imagenes Galeria===== */
+.gallery-grid {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  gap: 15px;
+  padding: 20px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  width: 200px;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 12px 9px 3px rgba(0, 0, 0, 0.3);
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* dos columnas iguales */
+  gap: 20px;
+  align-items: center;
+  /* centra verticalmente */
+  padding: 20px;
+}
+
+.hero-text {
+  /* Opcional: para que el texto quede alineado a la izquierda */
+  text-align: left;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== Tablas ===== */
+.tabla-valorant {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  text-align: center;
+  margin: 15px auto;
+  width: 90%;
+
+}
+
+.tabla-valorant th {
+  background-color: #ff5152;
+  color: white;
+  padding: 10px;
+  font-size: 2rem;
+  border: 2.5px solid #000000;
+}
+
+.tabla-valorant td {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 2.5px solid #000000;
+}
+
+.tabla-valorant tr:hover {
+  background-color: #f7aeae;
+}
+
+/* ===== Fromulario ===== */
+#soporte,
+label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.input-reporte {
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+
+#tipo-bug {
+  margin-bottom: 20px;
+  margin-left: 10px;
+
+}
+
+#descripcion {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#boton-reporte {
+  background-color: #ff5152;
+  color: white;
+  border: #000000;
+  padding: 10px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+#boton-reporte:hover {
+  font-size: 22px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 0px black;
+}
+
+/* ===== Contacto ===== */
+.icono-red {
+  width: 100px;
+  height: auto;
+  
+}
+
+.redes-sociales{
+  list-style: none;
+  margin: 20px auto;
+  display: flex;               
+  justify-content: center;     
+  gap: 150px;   
+}
+
+.boton-descarga {
+  font-size: 18px;        
+  color: #ff5152;           
+  text-decoration: none;   
+  background-color: #0c1824; 
+  padding: 10px 15px;
+  padding-left: 5px;      
+  border-radius: 6px;       
+  display: inline-block;    
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.boton-descarga:hover {
+  background-color: #ff5152;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px black;
+}
+/* ===== CABECERA Y MENÚ SUPERIOR ===== */
+.site-header {
+  display: grid;
+  justify-content: center;
+  row-gap: 30px;
+  background-color: #ff5152;
+  color: #ffffff;
+  padding: 15px 25px;
+  box-shadow: 0px 20px 15px black;
+  margin-bottom: 15px;
+}
+
+/*== Titulo del header ==*/
+.site-header h1 {
+  font-size: 3rem;
+  text-align: center;
+  grid-column-start: 2; 
+}
+
+/*== menu ==*/
+.main-nav {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 8px 10px;
+  transition: 0.3s ease;
+  grid-column-start: 3;
+}
+
+/*== menu ==*/
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+/*== menu ==*/
+.main-nav a {
+  text-decoration: none;
+  color: #ddd;
+  padding: 8px 10px;
+  transition: 0.3s ease;
+}
+
+/*== menu ==*/
+.main-nav a:hover {
+  color: #ffffff;
+  background-color: #0c1824;
+  border-radius: 6px;
+}
+
+/* ===== BOTÓN HAMBURGUESA PARA GESTIONAR EL MENÚ LATERAL ===== */
+.open-menu {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 20;
+  font-size: 26px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  background: #ff5152;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  grid-column-start: 1; 
+}
+
+.open-menu.active {
+  background: #0c1824;
+  transform: rotate(90deg);
+
+}
+
+/* ===== MENÚ LATERAL DESLIZANTE ===== */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -230px;
+  width: 200px;
+  height: 100%;
+
+  background-color: #ff5152;
+  color: #fff;
+
+  padding-top: 60px;
+  transition: left 0.6s ease;
+  z-index: 15;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-menu a {
+  display: block;
+  padding: 12px 20px;
+  color: #ddd;
+  text-decoration: none;
+
+}
+
+.side-menu a:hover {
+  background-color: #0c1824;
+  color: #fff;
+}
+
+/* ===== Apartados h2 ===== */
+.subapartados {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #0c1824;
+  margin: 1.5rem 0 1rem 0;
+  padding-bottom: 0.3rem;
+  letter-spacing: 0.05em;
+}
+
+h2:hover {
+  color: #ff5152;
+  cursor: default;
+}
+
+/* ===== PIE DE PÁGINA ===== */
+.site-footer {
+  background-color: #0c1824;
+  color: #ddd;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.site-footer a {
+  color: #bbb;
+  text-decoration: none;
+}
