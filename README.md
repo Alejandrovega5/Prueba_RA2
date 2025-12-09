@@ -37,7 +37,7 @@ Mi css para el hover:
 
 
 ### 3C. Enlace a la imagen original
-
+En el HTML a la etiqueta a le he puesto target="_blank", esto lo que hace es abrir el enlace a una nueva pestaña.
 Mi html: 
 <img width="1323" height="293" alt="image" src="https://github.com/user-attachments/assets/681b295c-0dba-4d82-aa38-90f178c6430d" />
 
