@@ -21,7 +21,6 @@ Lo que he hecho es Mi CSS:
 
 ### 2B. Ejercicio
 
-##Ejercicio2
 ### 3A. Crear miniaturas
 Le he cambiado el tamaño y lo he puesto como en el ejemplo con 200px.
 <img width="341" height="150" alt="image" src="https://github.com/user-attachments/assets/754b2ef3-f552-4c34-bb3a-bb7c39208359" />
